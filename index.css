@@ -1,0 +1,16 @@
+/*
+.banner-3Uu4yV, .upsellContainer-22N_CL, .divider-_0um2u,
+.bannerUpsellContainer-31E9J5, .channelTextArea-2VhZ6z > .container-JHR0NT, .upsell-34F9Me {
+    display: none;
+}
+*/
+
+/* Hides Nitro button directly below main menu */
+.channel-1Shao0.container-1oeRFJ.clickable-28SzVr[href="/store"] {
+    display: none;
+}
+
+/* Hides send gift button in send message bar */
+button[aria-label="Send a gift"] {
+    display: none;
+}

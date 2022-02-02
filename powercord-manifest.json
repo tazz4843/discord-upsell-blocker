@@ -1,0 +1,8 @@
+{
+  "name": "DiscordUpsellBlocker",
+  "description": "Hide Discord upsell in general",
+  "version": "1.0.0",
+  "theme": "index.css",
+  "author": "0/0#9631",
+  "license": "MIT"
+}
