@@ -1,10 +1,3 @@
-/*
-.banner-3Uu4yV, .upsellContainer-22N_CL, .divider-_0um2u,
-.bannerUpsellContainer-31E9J5, .channelTextArea-2VhZ6z > .container-JHR0NT, .upsell-34F9Me {
-    display: none;
-}
-*/
-
 /* Hides Nitro button directly below main menu */
 .channel-1Shao0.container-1oeRFJ.clickable-28SzVr[href="/store"] {
     display: none;
@@ -12,5 +5,38 @@
 
 /* Hides send gift button in send message bar */
 button[aria-label="Send a gift"] {
+    display: none;
+}
+
+/* Hides upsell when selecting emojis */
+.premiumPromo-1eKAIB {
+    display: none;
+}
+
+/* Hides unusable emojis */
+.emojiItemDisabled-3VVnwp, .emojiItemDisabled-3VVnwp>* {
+    display: none;
+}
+
+/* Hide settings menu items that are nitro-related */
+div[aria-label="Discord Nitro"], div[data-item-id="NitroServerBoost"], #guild-header-popout-premium-subscribe {
+    display: none;
+}
+
+/* Hide shiny button upsells */
+.shinyButton-2Q9MDB {
+    display: none;
+}
+
+/* Hide big banner upsells in settings */
+.upsellContainer-22N_CL, .wrapper-2-Da9H, .wrapper-3Zq_cJ {
+    display: none;
+}
+
+/* Hide "Buy Boosts to help unlock perks" banners */
+div[aria-label="Buy Boosts to help unlock Level 1 perks!"],
+div[aria-label="Buy Boosts to help unlock Level 2 perks!"],
+div[aria-label="Buy Boosts to help unlock Level 3 perks!"],
+div[aria-label="This server has unlocked all Boosting perks!"] {
     display: none;
 }
